@@ -1,239 +1,199 @@
 
-/* GENERAL STYLES */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0px;
-    padding: 100;
-    background-color: #f2f2f2;
-    
-}
-
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.but1{
-    margin: 100px;
-        align-items: center;
-        text-align: center;
-        .biton {
-           width: 300px;
-           height: 100px;
-            text-align: center;
-            padding: 20px;
-            border: 1px solid rgb(255, 255, 255);
-
-            background-color:rgba(0, 0, 0, 0.5);
-            color: rgb(206, 206, 206);
-        }
- }
-
- p{
-    justify-content:center;
-    display: flex;
-    padding: 20px;
- }
-
-
-
-header {
-    background: url('apples.jpg') no-repeat center center/cover;
-    color: white;
-    padding: 100px;
-    text-align: center;
-    top: -100px;
-    
-
-    
-}
-
-
-
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    padding: -50px ;
-    margin: 100px;
-    font-size: 30px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    position: relative;
-    top: -180px;
-    margin-left: -50px;
-    
+    background-image: url("apples.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
 }
 
-.dina1{
-    display: flex;
-    justify-content:center;
-    color: rgb(255, 255, 255);
-    margin: 100px;
-    font-size: 50px;
-    text-decoration: none;
-    
-}
-
-nav ul li a {
+.logo-text {
     color: white;
-  
+    font-size: 24px;
+    margin: 10px;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+.header-top {
+    margin-top: 0px;
+    padding: 10px;
 }
 
-
-
-nav li {
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 1px;
-    
-    
-}
-.span{
-    position: relative;
-    right: 700px;
-    
-
-}
-
-/* HERO SECTION STYLES */
-.article.bbb{
-    text-align: right;
-}
-
-.left-image {
-    background-image: url(" C:/Users/lensa/Documents/ІЗРАЇЛЬ/CSS/lesson/Нова папка/sample3.jpg");
-    width: 70%;
-   position: relative;
-
-}
-.flex-article {
-   display: flex; 
-}
-.article-content-new {
-    width: 30%;
-}
-
-.likes {
-    position:absolute ;
-    right: 100px;
-}
-.likes2{
-    position:absolute ;
-    right: 780px;
-}
-
-
-.left-image h3 {
-    position: absolute;
-    top: 90%
-}
-.rrr{
-    justify-content: left;
-    display: flex;
-    font-size: 20px;
-    text-align: center;
-
-}
-.reverce{
-    flex-direction: row-reverse;
-}
-
-
-
-
-
-
-.form-news {
-    background-color: #ffffff;
+.main-title {
+    color: white;
+    font-size: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin: 20px;
-    padding: 40px;
-    margin-top: -30px;
-   
-}
-
-.form-news p {
-    font-size: 30px;
-    padding-right: 10px;
-}
-
-.in {
-    width: 700px;
-    height: 50px;
-}
-
-label {
-    line-height: 0;
-    height: 50px;
-}
-
-.button2 {
-    width: 100px;
-    height: 56px;
+    gap: 40px;
     text-align: center;
-    padding: 8px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ampersand {
+    font-size: 100px;
+    margin: 0px;
+}
+
+.brand-description {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.button-container {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.primary-button {
+    width: 200px;
+    height: 50px;
     border: 1px solid rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.5);
     color: rgb(206, 206, 206);
 }
 
 
-/* Оновлення стилів для контактів і іконок */
-footer {
-    background-color: #fff;
-    padding: 40px;
-    text-align: center;
+.nav-list {
+    margin: 0;
+    padding: 20px;
+    text-align: right;
+    list-style: none;
 }
 
-.contact-info h3,
-.social-icons h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.contact-info p,
-.social-icons p {
-    font-size: 18px;
-    margin: 5px 0;
-}
-
-.social-icons a {
-    font-size: 24px;
+.nav-list li {
+    display: inline;
     margin: 0 10px;
-    color: #333;
+}
+
+.nav-list a {
+    font-size: 18px;
     text-decoration: none;
+    color: white;
+    padding: 10px;
 }
 
-.social-icons a:hover {
-    color: #0073e6;
+
+.paragraph-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 50px;
 }
 
-.product-likes .likes {
+.paragraph-large, .paragraph-small {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.paragraph-large {
+    width: 500px;
+}
+
+.paragraph-small {
+    width: 300px;
+}
+
+
+.featured-articles {
+    background-color: #dadada;
+    padding: 40px;
+}
+
+.featured-title {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+
+.article-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 100px;
+    position: relative;
+    
+}
+
+.article-card img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.like-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(206, 206, 206);
+}
+
+.article-location {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #a2a2a2;
+}
+
+.article-text {
+    color: black;
     margin: 20px;
 }
 
-.button-like {
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
+
+.newsletter-form {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 40px;
 }
 
-.button-like i {
-    margin-right: 5px;
+.newsletter-form p {
+    font-size: 30px;
+    padding-right: 10px;
 }
 
-.button-like:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+.input-field {
+    width: 700px;
+    height: 50px;
+}
+
+.form-button-container {
+    margin-left: 10px;
+}
+
+.primary-button {
+    width: 100px;
+    height: 56px;
+}
+
+
+.footer-container {
+    padding: 50px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    width: 230px;
+    color: #a2a2a2;
+}
+
+.footer-item h5 {
+    color: black;
+}
+
+.footer-item form {
+    display: flex;
+    gap: 10px;
 }
